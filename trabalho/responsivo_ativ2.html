@@ -1,0 +1,172 @@
+<html lang="pt-br">
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width"/>
+	<title>Cadastro</title>
+	
+    <style>
+
+	</style>
+	
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+                <a class="navbar-brand" href="responsivo_ativ.html"><img src="img/spotifypreto.png" width="120px" float="left"></a>
+			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+                </button>
+			 
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="responsivo_ativ.html">Início <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="responsivo_ativ2.html">Cadastrar-se</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Social
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a class="dropdown-item" target="_blank" href="https://www.facebook.com/Spotify">Facebook</a>
+						  <a class="dropdown-item" target="_blank" href="https://twitter.com/SpotifyBR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+						  <a class="dropdown-item" target="_blank" href="https://www.instagram.com/spotifybrasil/?hl=pt-br">Instagram</a>
+					  </div>
+					  </li>
+			</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Vire assinante premium</h1>
+			<p class="lead">Com premium você ganha mais.</p>
+		</div>
+    </div>
+
+	<div class="container">
+		<div class="row">
+               <div class="col-md-4">
+					<div class="card mb-3">
+						<div class="header">
+							<h2>Sua compra</h2>
+							 <dl>
+							  <dt>Premium<dt>
+							  <dd>Pacote premiun individual</dd>
+							  <dt>Assinatura<dt>
+							  <dd>3 meses</dd>
+							  <dt>Data de assinatura<dt>
+							  <dd>00/00/0000 às 00:00h</dd>
+							  <dt>Preço<dt>
+							  <dd>16,90</dd>
+							 </dl>
+						</div>	
+					</div>
+				</div>	
+
+			<div class="col-md-8">
+				<div class="row">
+                        <fieldset class="col-lg-6">
+                                <legend>Dados pessoais</legend>
+                                    <div class="form-group">
+                                        <label for="nome">Nome Completo</label>
+                                        <input type="text" class="form-control" id="nome" name="nome" autofocus required>
+                                    </div>
+                                    
+                                    <div class="form-group">			
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
+                                    </div>
+                                    
+                                    <div class="form-group">			
+                                        <label for="cpf">CPF</label>
+                                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000.-00" required>
+                                    </div>		
+    
+                                    <div class="form-group custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="newsletter" value="sim" checked>
+                                    <label class="custom-control-label" for="newslatter">Quero receber novidades do spotify premium por email.
+                                    <label>	
+                                </div>
+                            </fieldset>
+    
+                            <fieldset class="col-lg-6">
+                                    <legend>Cartão de crédito</legend>
+                                    <div class="form-group">
+                                        <label for="numero-cartao">Número - CVV</label>
+                                        <input type="text" class="form-control" id="numero-cartao" name="numero-cartao" placeholder="" required>
+                                    </div>	
+                                        
+                                    <div class="form-group">	
+                                        <label for="bandeira-cartao">Bandeira</label>
+                                        <select class="custom-select" id="bandeira-cartao">
+                                            <option disabled selected>Selecione uma opção...</option>
+                                            <option value="master">Mastercard</option>
+                                            <option value="visa">VISA</option>
+                                            <option value="amex">American Express</option>
+                                        </select>		
+                                    </div>		
+                                
+                                    <div class="form-group">	
+                                    	<label for="validade-cartao">Validade</label>
+                                   		<input type="month" class="form-control" id="validade-cartao" name="validade" >
+									</div>
+									<div>
+										<button type="button" class="btn btn-primary">Cadastrar</button>
+									</div>
+                                </div>	
+                            </div>	
+                        </fieldset>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="pt-4 my-md-5 pt-md-5 border-top">
+			<div class="row">
+			  <div class="col-12 col-md">
+					<a class="navbar-brand" href="responsivo_ativ.html"><img src="img/spotifypreto.png" width="120px" float="left"></a>
+				<small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
+			  </div>
+			  <div class="col-6 col-md">
+				<h5>Veja também:</h5>
+				<ul class="list-unstyled text-small">
+				  <li><a class="text-muted" href="#">Música para curitr o verão</a></li>
+				  <li><a class="text-muted" href="#">Playlist aleatória</a></li>
+				  <li><a class="text-muted" href="#">Acústico</a></li>
+				  <li><a class="text-muted" href="#">Disponivel pelos desenvolvedores</a></li>
+				  <li><a class="text-muted" href="#">Últimas adicionadas</a></li>
+				</ul>
+			  </div>
+			  <div class="col-6 col-md">
+				<h5>Soluções</h5>
+				<ul class="list-unstyled text-small">
+				  <li><a class="text-muted" href="#">Ajuda</a></li>
+				  <li><a class="text-muted" href="#">Pesquisar Erro</a></li>
+				  <li><a class="text-muted" href="#">Outras soluções</a></li>
+				  <li><a class="text-muted" href="#">Comentários</a></li>
+				</ul>
+			  </div>
+			  <div class="col-6 col-md">
+				<h5>Sobre</h5>
+				<ul class="list-unstyled text-small">
+				  <li><a class="text-muted" href="#">Equipe</a></li>
+				  <li><a class="text-muted" href="#">Localização</a></li>
+				  <li><a class="text-muted" href="#">Privacidade</a></li>
+				  <li><a class="text-muted" href="#">Termos</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </footer>
+		
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

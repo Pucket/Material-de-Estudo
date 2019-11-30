@@ -1,0 +1,191 @@
+﻿<!Doctype html>
+<html long="pt-br">
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title> Layout Responsivo</title>
+	<style>
+		body, html{
+			margin:0;
+			padding:0;
+		}
+		.main{
+			max-width:80%;
+			margin: 0 auto;
+			overflow:hidden;
+			background:lightgray;
+		}
+		.content{
+			float:left;
+			width:100%;
+			margin-right:-210px;
+		}
+		
+		.content-inner{
+			margin-right:210px;
+		}
+		
+		.sidebar{
+			background:red;
+			float:right;
+			width:200px;
+		}
+		
+		.menu{
+			width:100%;
+			background:blue;
+		}
+		
+		.menu ul{
+			margin:0;
+			padding:0;
+		}
+		
+		.menu ul li{
+			display:inline-block;
+			*display:inline;
+			zoom:1;
+			margin:0;
+			padding:0;
+		}
+		
+		.menu ul li a{
+			display:block;
+			padding:20px;
+			color:#fff;
+		}
+		
+		.footer{
+			width:100%;
+			background:yellow;
+			tex-align:center;
+		}
+		
+		@media screen and (max-width: 700px){
+			.sidebar, .content-inner, .content{
+			float: none;
+			width: 100%;
+			margin-right:0;
+			}
+		}
+		
+		
+	</style>
+	
+</head>
+<body>
+	<div class="main">
+		<div class="menu">
+			<ul>
+				<li> <a href="#"> menu </a> </li>
+				<li> <a href="#"> menu </a> </li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="content-inner">
+				Conteúdo
+			</div>
+			
+		</div>
+		<div class="sidebar">
+			Barra lateral
+		</div>
+		
+		<br style="clear:both">
+		
+		<div class="footer">
+			Rodapé
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+----------------------------------------------------
+
+
+
+<!Doctype html>
+<html long="pt-br">
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title> Layout Responsivo</title>
+	<style>
+		body, html{
+			margin:0;
+			padding:0;
+		}
+		
+		.content{
+			float:left;
+			width:1200px;
+			margin-right:-210px;
+		}
+		
+		.cx1{
+			width:350px;
+			height:350px;
+			background-color:red;
+		}
+		
+		.cx2{
+			width:350px;
+			height:350px;
+			background-color:blue;
+		}
+		
+		.cx3{
+			width:350px;
+			height:350px;
+			background-color:yellow;
+		}
+		
+		.cx4{
+			width:350px;
+			height:350px;
+			background-color:green;
+		}
+		
+		@media screen and (max-width: 700px){
+			.sidebar, .content-inner, .content{
+			float: none;
+			width: 100%;
+			margin-right:0;
+			}
+		}
+		
+		
+	</style>
+	
+</head>
+<body>
+	
+	<div class="content">
+
+		<div class="cx1">
+	
+		</div>
+	
+		<div class="cx2">
+
+		</div>
+	
+		<div class="cx3">
+	
+		</div>
+	
+		<div class="cx4">
+	
+		</div>
+	
+	</div>
+	
+	
+</body>
+</html>

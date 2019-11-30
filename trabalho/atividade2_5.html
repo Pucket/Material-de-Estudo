@@ -1,0 +1,30 @@
+﻿<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>HTML5 - Estrutura básica</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+
+	var base = parseInt(prompt("Digite a base do triângulo:"));
+	var ad = parseInt(prompt("Digite o cateto adjacente do triângulo:"));
+	var op = parseInt(prompt("Digite o cateto oposto do triângulo:"));
+	
+	if(base == ad && base == op){
+		alert("O triângulo é Equilátero.");
+	}
+	
+	else if(ad == op){
+		alert("O triângulo é Isóscele.");
+	}
+	
+	else{
+		alert("O triângulo é Escaleno.");
+	}
+
+	
+</script>

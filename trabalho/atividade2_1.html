@@ -1,0 +1,26 @@
+﻿<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>HTML5 - Estrutura básica</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+	var alt, sex, peso
+	alt = parseFloat(prompt("Digite a altura:"));
+	sex = parseInt(prompt("Digite 1 para masculino e 2 para feminino:"));
+	
+	if(sex == "1"){
+		peso = (72.7 * alt) - 58;
+		alert("Seu peso ideal é: " + peso);
+	}
+	
+	else{
+		peso = (62.1 * alt) - 44.7;
+		alert("Seu peso ideal é: " + peso);
+	}
+	
+</script>

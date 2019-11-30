@@ -1,0 +1,53 @@
+﻿<!--Faça um progrma que leia 2 números inteiros e calculem a média desse aluno. caso a média seja inferior a 5,
+ o aluno esta reprovado, senão aprovado. o sistema deverá informar a nota-->
+
+
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>HTML5 - Estrutura básica</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+	var nota1 = parseFloat(prompt("Digite a 1° nota:"));
+	var nota2 = parseFloat(prompt("Digite a 2° nota:"));
+	var media = (nota1 + nota2) / 2;
+	
+	if(media <= 4.9){
+		alert("Média: " + media + " Reprovado")
+	}
+	
+	
+	else if(media >= 5 && media <= 6.9){
+		alert("Média: " + media + " Recuperação")
+		var rec = parseFloat(prompt("Digite a nota da recuperação:"))
+		if(rec >= 6){
+			alert("Aprovado na recuperação")
+		}
+		else{
+			alert("Reprovado na recuperação")
+		}
+	}
+	
+	else{
+		alert("Média: " + media + " Aprovado");
+	}
+	
+	/*if(media < 5){
+		alert("Média: " + media + " Reprovado")
+	}
+	
+	
+	else if(media < 7){
+		alert("Média: " + media + " Recuperação")
+	}
+	
+	else if(media >= 7){
+		alert("Média: " + media + " Aprovado");
+	}*/
+	
+</script>

@@ -1,0 +1,36 @@
+﻿<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>HTML5 - Estrutura básica</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+
+	var ang1 = parseInt(prompt("Digite o 1° angulo:"));
+	var ang2 = parseInt(prompt("Digite o 2° angulo:"));
+	var ang3 = parseInt(prompt("Digite o 3° angulo:"));
+	var total = ang1 + ang2 + ang3;
+	
+	if(total <= 180){
+		if(ang1 < 90 && ang2 < 90 && ang3 < 90){
+			alert("Triângulo Acutângulo.");
+		}
+		
+		else if(ang1 > 90 || ang2 > 90 || ang3 > 90){
+			alert("Triângulo Obtusângulo.");
+		}
+		
+		else if(ang1 == 90 || ang2 == 90 || ang3 == 90){
+			alert("Triângulo Retângulo.");
+		}
+	}
+	else{
+			alert("A soma dos ângulos não pode ser maior que 180°");
+	}
+
+	
+</script>
